@@ -9,6 +9,6 @@ public class HelloWorldController {
 	@RequestMapping("/hello")
 	public String getHelloWolrd(Model model) {
 		
-		return "hello";
+		return "hello"; 
 	}
 }
